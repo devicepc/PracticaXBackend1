@@ -1,0 +1,26 @@
+.cardN{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    border: 1px solid rgb(99, 98, 98);
+    width: 35%;
+    border-radius: 5%;
+    float: left;
+    
+}
+
+
+
+.img_container img{
+    width: 100%;
+    height: 250px;
+}
+.card_body {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .cardN{
+        width: 90%;
+    }
+}

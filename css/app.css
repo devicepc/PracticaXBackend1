@@ -1,0 +1,100 @@
+.video{
+    width: 600px;
+    height: 350px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+    font-size: 41px;
+}
+.menu{
+    width: 60%;
+    height: auto;
+    background-color:rgb(67,97,124);
+    border-radius: 10px;
+    margin-left: 20%;
+    padding-bottom: 10px;
+}
+.menu h1{
+    color: #FFF;
+    font-size: 3rem;
+}
+.menu p{
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.modo-sexo{
+    height: 60%;
+    position: absolute;
+    display: none; 
+    width: 100%;
+    text-align: center;
+    background-color: rgb(39, 158, 173);
+    
+}
+.modo-sexo img{
+    margin-left: 15%;
+}
+.info{
+    text-align: center;
+}
+.info2{
+    text-align: center;
+    font-size: 42px;
+}
+
+#btn_si{
+    background-color: rgb(39, 158, 173);
+    border-color: cadetblue;
+    color: azure;
+    font-style: xx-large;
+    padding: 32px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.patrico{
+    width: 600px;
+    height: 350px;
+}
+
+.red{
+    height: auto;
+    background-color: red;
+    width: 100%;
+}
+#respuesta h1{
+    margin-top: 540px;
+    
+}
+#respuesta button{
+    margin-left: 25%;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background: linear-gradient(to left, #f46b45, #eea849);
+    color: #FFF;
+}
+.dataEmpresa{
+  width: 45%;
+    margin-top: 20px;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-bottom: 30px;
+    float: left;
+}
+.iconfooter{
+    width: 45px;
+    height: 45px;
+    margin-left: 5%;
+    float: left;
+  }

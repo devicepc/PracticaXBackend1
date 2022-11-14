@@ -1,0 +1,34 @@
+img {
+    max-width: 100%;
+    display: block;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card {
+    
+  
+    width: min(100% - 2rem, 380px);
+    background-color: var(--clr-neutral-100);
+  
+    overflow: hidden;
+    border-radius: 0.8em;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .card:is(:hover, :focus) {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
