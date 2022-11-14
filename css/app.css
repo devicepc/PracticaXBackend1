@@ -23,6 +23,7 @@ h1{
 .menu h1{
     color: #FFF;
     font-size: 3rem;
+    text-decoration: underline;
 }
 .menu p{
     color: #FFF;
@@ -97,4 +98,24 @@ footer{
     height: 45px;
     margin-left: 5%;
     float: left;
+  }
+
+  @media screen and (max-width: 600px) {
+    .menu h1{
+        color: #FFF;
+        font-size: 2rem;
+    }
+    .menu p{
+        color: #FFF;
+        font-size: 1.2rem;
+    }
+    .info2{
+        font-size: 2rem;
+    }
+    #respuesta h1{
+        font-size: 2rem;
+       
+    }
+   
+
   }
